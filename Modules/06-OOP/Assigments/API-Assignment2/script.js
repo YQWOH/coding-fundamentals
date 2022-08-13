@@ -26,7 +26,8 @@ async function getUser(endpoint) {
 
 let button = document.querySelector("#button")
 button.addEventListener("click", function(e){
-    let username = e.target.parentNode.querySelector("#user").value
+    let name = e.target.parentNode.querySelector("#user").value
+    let username = name.split(" ").join("")
     let endpoint = `https://api.github.com/users/${username}`
     getUser(endpoint)
 })
