@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    height: 35vh;
+    width: 50vw;
+    margin: 20px 20px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.customer-info {
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.image-container {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.image-container .avatar{
+    height: 100%;
+    width: 100%;
+    border-radius: 9999px;
+}
+
+.customer-review {
+    font-family: system-ui;
+}
