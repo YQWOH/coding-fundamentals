@@ -32,12 +32,12 @@ async function getImage(){
         grid_item.appendChild(button)
         document.querySelector('.grid-container').appendChild(grid_item)
     
-        if (data[i].image === undefined || data[i].image.url === undefined){
+        if (data[i].reference_image_id === undefined){
             document.querySelector(`.image${i+1}`).src= 'https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg'
             document.querySelector(`.name${i+1}`).innerText=data[i].name
             document.querySelector(`.description${i+1}`).innerText=data[i].description
         } else {
-            document.querySelector(`.image${i+1}`).src=data[i].image.url
+            document.querySelector(`.image${i+1}`).src=`https://cdn2.thecatapi.com/images/${data[i].reference_image_id}.jpg`
             document.querySelector(`.name${i+1}`).innerText=data[i].name
             document.querySelector(`.description${i+1}`).innerText=data[i].description
         }
