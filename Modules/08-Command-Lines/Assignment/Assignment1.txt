@@ -1,0 +1,14 @@
+mkdir about
+cd about
+type nul > about.css
+type nul > about.html
+cd ..
+mkdir contact
+cd contact
+type nul > contact.css
+type nul > contact.html
+cd ..
+mkdir index
+cd index
+type nul > index.css
+type nul > index.html

@@ -1,0 +1,9 @@
+mkdir pages
+move C:\Users\Username\about\about.html C:\Users\Username\pages
+move C:\Users\Username\contact\contact.html C:\Users\Username\pages
+move C:\Users\Username\index\index.html C:\Users\Username\pages
+mkdir assets
+move C:\Users\Username\index\styles.css C:\Users\Username\assets
+rmdir about
+rmdir contact
+rmdir index

@@ -1,0 +1,13 @@
+mkdir portfolio-website
+cd portfolio-website
+mkdir assets
+cd assets
+type nul > banner.png
+type nul > profile.png
+cd ..
+mkdir src
+cd src
+type nul > about.html
+type nul > contact.html
+type nul > index.html
+type nul > style.css

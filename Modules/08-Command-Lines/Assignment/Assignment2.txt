@@ -1,0 +1,8 @@
+cd about
+del about.css
+cd ..
+cd contact
+del contact.css
+cd ..
+cd index
+ren index.css styles.css
