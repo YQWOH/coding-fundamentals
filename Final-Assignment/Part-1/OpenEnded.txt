@@ -1,0 +1,71 @@
+1. Why do we need a loop? How do you write a basic for loop?
+   When you want to send a birthday party invitation, you send a card to around 10 friends.
+   Then actually, the content inside the card is same just friend's name is different.
+   Instead of write 10 card, you may need print the birthday card without the friend name, 
+   then only write the name on the card.
+   For Loop: You may use a printing machine (function) to print 10 card with same content and add the friend's 
+             name to the card.
+             For example: "Hello (friend name), you are invited to my birthday party!"
+
+
+2. Difference between console.log() and return?
+
+   console.log() : 
+   We are asking the computer to say something out loud so we can hear it. 
+   We tell the computer what we want it to say, and then it says it for us. 
+   For example, if we write console.log("Hello, world!"), the computer will say "Hello, world!" out loud for us to hear.
+
+   Return: 
+   We are giving the computer a piece of information that it can use later. 
+   We tell the computer what information we want to give it, 
+   and then it remembers that information for later. 
+   For example, if we write return 2 + 3, the computer will remember that the answer to 2 + 3 is 5.
+
+
+3. What are truthy values? What are falsy values?
+   Truthy values: Non-zero values, for example 1, 2, 3
+   Falsy values: Zero values, example 0
+
+
+4. How does the internet work?
+   The internet is like a really big playground where you can play with your friends who are far away from you.
+   When you want to play with your friends, you need to use something called a computer. 
+   Your computer talks to your friend's computer using something called the internet. 
+   The internet is like a big highway that connects all the computers in the world so they can talk to each other.
+   To use the internet, you need to ask your computer to connect to the internet. 
+   This is like asking your mom or dad to take you to the playground. 
+   Once you're connected to the internet, 
+   you can use something called a web browser to visit websites. 
+   Websites are like different parts of the playground where you can play different games and do different things.
+   When you visit a website, your computer sends a message to another computer that has the website on it. 
+   This message asks for the website to be sent back to your computer, 
+   kind of like asking your friend to send you a picture of their new toy. 
+   When the website is sent back to your computer, you can see it on your screen and play on the playground.
+   So, the internet is like a big highway that connects all the computers in the world 
+   so they can talk to each other. 
+   You use it to visit websites and play with your friends who are far away from you.
+
+5. How does a website work? What files are involved?
+   A website is like a big book that you can read on a computer. 
+   When you want to read a website, you need to use something called a web browser. 
+   Your web browser helps you see the website on your screen, just like a book helps you see words and pictures.
+   A website is made up of different files. 
+   These files are kind of like different parts of the book.
+   Just like a book has chapters and pictures and words, 
+   a website has files that make up different parts of the website.
+
+   Files involved are HTML, CSS and Javascript.
+   HTML file is like the table of contents of the book. 
+   It tells your web browser what the website is about and what other files it needs to load. 
+   CSS file like the colors and pictures in the book tells your web browser how the website should look.
+
+   When you want to visit a website, your computer sends a message to another computer that has the website on it. 
+   This message asks for the website to be sent back to your computer. 
+   When the website is sent back to your computer, 
+   your web browser looks at the different files that make up the website 
+   and puts them all together on your screen so you can read the website and see the pictures.
+
+   So, a website is like a big book that you can read on a computer. 
+   It's made up of different files, like the table of contents and the pictures. 
+   When you want to visit a website, your computer asks for the files from another computer 
+   and your web browser puts them all together on your screen so you can read the website.
