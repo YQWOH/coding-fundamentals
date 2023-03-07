@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="header">
+        <h2>TO-DO List</h2>
+        <div id="mylist">
+            <!-- Create input field with add button -->
+            <input type="text" id="userinput" placeholder="your to-do list">
+            <select name="rating" id="rating">
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
+            <button onclick id="add">+</button>
+        </div>
+    </div>
+    <ul id="myUL">
+        <!-- Create an exisitng list of items  -->
+        <!-- <li>Hit the gym</li> -->
+        <!-- Strikethrough for those items already done -->
+        <!-- <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li> -->
+    </ul>
+    <div id="deleted-to-do-title">Delete todos</div>
+    <ul id="deleted-to-do"></ul>
+    <script src="./app.js"></script>
+</body>
+</html>

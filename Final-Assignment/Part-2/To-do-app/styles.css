@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: brown;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#deleted-to-do-title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: aqua;
+}
+
+#mylist {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+#userinput {
+    height: 30px;
+    width: 500px;
+}
+
+#rating {
+    height: 30px;
+    width: 120px;
+}
+
+#add{
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    border: 0px solid black;
+    /* padding:top right bottom left */
+    margin: 0;
+    padding: 12px 8px 12px 40px;
+    position: relative;
+}
+
+#deleted-to-do li {
+    text-align: left;
+    font-size: 16px;
+}
+
+.todo {
+    background-color: white;
+}
+
+li:hover {
+    background-color: lightgrey;
+}
+
+.close {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    float: right;
+    padding: 12px 16px 12px 16px;
+    width: 100px;
+}
+
+.undo {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    float: right;
+    padding: 12px 16px 12px 16px;
+    width: 100px;
+}
+
+.star {
+    position: absolute;
+    text-align: center;
+    right: 116px;
+    top: 0; 
+    bottom: 0;
+    float: right;
+    padding: 10px 16px 12px 16px;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+.undo:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+content: '';
+position: absolute;
+border-color: #fff;
+border-style: solid;
+border-width: 0 2px 2px 0;
+top: 10px;
+left: 16px;
+transform: rotate(45deg);
+height: 15px;
+width: 7px;
+}   
