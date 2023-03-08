@@ -1,0 +1,79 @@
+body {
+	background-color: #f7f7f7;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+#word {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#exit-container {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#exit {
+	padding: 5px 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.firstPage {
+	display:flex;
+	align-items: center; 
+	justify-content: center; 
+	flex-direction: column;
+	min-height: 650px;
+}
+
+.firstPage #category{
+	height: 50px;
+	font-size: 30px;
+}
+
+.firstPage .runApp{
+	height: 50px;
+	font-size: 30px;
+}
+  
+form input[type="text"] {
+	padding: 5px;
+	font-size: 1.5em;
+}
+
+form button[type="submit"] {
+	padding: 5px 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+#guesses-left {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#letters-guessed {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}

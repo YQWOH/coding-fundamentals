@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="firstPage">
+		<h1>Choose the word category</h1>
+		<select name="category" id="category">
+			<option value="animals">animals</option>
+			<option value="sports">sports</option>
+			<option value="countries">countries</option>
+			<!-- <option value="home">home</option> -->
+			<!-- <option value="clothes">clothes</option> -->
+			<!-- <option value="food">food</option> -->
+			<!-- <option value="personal">personal</option> -->
+		</select>
+		<br />
+    	<button class="runApp">Start</button>
+	</div>
+	<!-- <div style="display:none;"> -->
+	<div class="secondPage hidden">
+		<h1>Word Guessing Game</h1>
+		<p>Guess the word:</p>
+		<div id="word"></div>
+		<p>Guesses Left: <span id="guesses-left"></span></p>
+		<p>Letters Guessed: <span id="letters-guessed"></span></p>
+		<form>
+			<input type="text" id="guess-input" maxlength="1">
+			<button type="submit" id="guess-btn">Guess</button>
+		</form>
+		<div id="exit-container">
+			<button id="exit">Exit</button>
+		</div>
+	</div>
+    
+	<script src="./app.js"></script>
+</body>
+</html>
