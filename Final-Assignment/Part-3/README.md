@@ -1,4 +1,4 @@
-# vue-tailwind-project
+# budget-planner (vue-tailwind-project)
 
 ## Project setup
 ```
