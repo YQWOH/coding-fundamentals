@@ -1,6 +1,9 @@
 # budget-planner (vue-tailwind-project)
-video : https://youtu.be/yGFhwnm5PRI
+## Video and API
+```
+video: https://youtu.be/yGFhwnm5PRI
 api: https://freecurrencyapi.com/
+```
 
 ## Project setup
 ```
