@@ -1,4 +1,5 @@
 # budget-planner (vue-tailwind-project)
+video : https://youtu.be/yGFhwnm5PRI
 
 ## Project setup
 ```
